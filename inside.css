@@ -23,7 +23,7 @@ body {
     left:50%;
     transform:translate(-50%,-50%) scale(0);
     background:#fff;
-    width:800px;
+    width:1200px;
     height:600px;
     z-index:2;
     text-align:center;
@@ -190,6 +190,7 @@ body {
   .brinno {
     color: rgb(0, 0, 0);
     inline-size: 450px;
+    width: 500px;
     text-align: justify;
     text-justify: inter-word;
   }
@@ -277,13 +278,17 @@ body {
     
     .blue{
         display:block;
-        float: right;
-        background-color: blue;
-        text-align: right;
+        position:absolute;
+        top:210px;
+        left:710px;
+        width: 490px;
+        right:100px;
+        background-color: #e2f1fa ;
+        text-align: left;
     }
     .mid{
         display:block;
-        float:center;
+        float:right;
     }
     use{
         display:block;
