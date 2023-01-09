@@ -30,6 +30,7 @@ body {
     padding:20px;
     box-sizing:border-box;
     font-family:"Open Sans",sans-serif;
+    margin-top: 25px;'
   }
 
 
@@ -166,19 +167,28 @@ body {
     animation: pulse3 1.2s ease-in-out infinite;
   }
 
-  #myimage {
+  #myimageovi {
     float:left;
     display: block;
 
-    box-sizing: border-box;
-    background: url(nico.jpg) no-repeat;
-    width: 280px; /* Width of new image */
-    height: 236px; /* Height of new image */
-    /* padding-left: 180px; /* Equal to width of neeew image */
+    background-image:  url(ovis.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    
+    
+    
+
+
+
+    
   }
 
   #HeaderBrinno {
-    color: rgb(24, 38, 192);
+    color: rgb(192, 66, 24);
+    position: absolute;
+    left: 580px;
     /* padding-left: 180px; /* Equal to width of new image */
   
 
@@ -196,6 +206,15 @@ body {
   }
 
 
+#HeaderBrinnousage {
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  width: 300px;
+
+
+
+  
+}
   
 
   .house {
@@ -279,18 +298,42 @@ body {
     .blue{
         display:block;
         position:absolute;
-        top:210px;
-        left:710px;
-        width: 490px;
-        right:100px;
+        top:100px;
+        left:900px;
+        width: 250px;
+        right:20px;
         background-color: #e2f1fa ;
         text-align: left;
+        bottom: 20px;
+        padding-left: 20px;
     }
     .mid{
-        display:block;
-        float:right;
+      display:block;
+      position:absolute;
+      top:100px;
+      left:580px;
+      width: 250px;
+      right:50px;
+
+      text-align: left;
     }
-    use{
+    .use{
         display:block;
         float:left;
+        width: 200px;
+        left: 20px;
+        right: 100px;
+        position: absolute;
+        text-align: left;
+        
+    }
+
+    hr{
+
+      background: blue;
+      height: 7px;
+      display: block;
+      float: unset;
+      margin-top: 20%;
+
     }
