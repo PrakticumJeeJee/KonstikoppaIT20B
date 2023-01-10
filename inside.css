@@ -208,7 +208,9 @@ body {
 
 #HeaderBrinnousage {
   color: rgb(0, 0, 0);
-  text-align: justify;
+  text-align: left;
+  padding-left: 6%;
+  
   width: 300px;
   
 
@@ -322,19 +324,52 @@ body {
         display:block;
         float:left;
         width: 200px;
-        left: 20px;
-        right: 100px;
-        position: absolute;
+        left: 40px;
+        right: 70px;
+        padding-left: 6%;
         text-align: left;
         
     }
 
-    hr{
+    .HR1{
 
       background: blue;
       height: 7px;
       display: block;
       float: unset;
-      margin-top: 20%;
+      margin-top: 17.6%;
 
+    }
+
+
+    .HR2{
+
+      background: blue;
+      height: 3px;
+      display: block;
+      
+
+    }
+
+
+
+    .HR3{
+
+      background: orangered;
+      height: 1px;
+      width: 32.51%;
+      display: block;
+      float: left;
+      margin-top: -0.265%;
+
+    }
+
+
+    .HR4{
+
+      background: orangered;
+      height: 1.5px;
+      width: 110%;
+      display: block;
+      float: left;
     }
